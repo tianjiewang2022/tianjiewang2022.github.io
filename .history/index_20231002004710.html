@@ -62,11 +62,10 @@
             }
 
             table {
-
+                width: 100%;
+                justify-content: center;
                 border-collapse: collapse;
                 margin-top: 20px;
-                left: 5%;
-                right: 5%;
             }
 
             th,
@@ -87,9 +86,14 @@
             Sally Wang
         </header>
 
-        <div class="container" id="box-container"></div>
+        <div class="container">
+            <!-- Your content goes here -->
+            <span class="box blue"></span>
+            <span class="box green"></span>
+            <span class="box purple"></span>
+        </div>
 
-        <script>
+        <!-- <script>
             // Function to create a box element with the specified color
             function createBox(color) {
                 const box = document.createElement("div");
@@ -111,9 +115,8 @@
                 // Append the row to the main container
                 container.appendChild(row);
             }
-        </script>
+        </script> -->
     </body>
-    <div>-----------------</div>
     <table>
         <thead>
             <tr>
