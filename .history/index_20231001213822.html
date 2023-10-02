@@ -5,26 +5,19 @@
             .grid-container {
                 display: grid;
                 grid-template-areas:
-                    "box1 box2 box3 "
-                ;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-auto-rows: 1fr;
+                    "box1 box2 box3" .repeat(100);
                 grid-gap: 200px;
             }
 
             .box1 {
                 background-color: orange;
-                grid-column: 1 / span 3;
-                /* Span 3 columns */
-                grid-row: span 3;
-                /* Span 3 rows */
+                grid-column: 1/span 3;
+                grid-area: box1;
             }
 
             .box2 {
                 background-color: green;
                 grid-row: 1/span 3;
-                grid-column: span 3;
-                /* Span 3 columns */
                 grid-area: box2;
 
             }
@@ -32,10 +25,6 @@
             .box3 {
                 grid-area: box3;
                 background-color: blue;
-                grid-column: span 3;
-                /* Span 3 columns */
-                grid-row: span 3;
-                /* Span 3 rows */
             }
         </style>
 
@@ -57,11 +46,6 @@
             <span class="box3">
                 box 3
             </span>
-            @for $i from 1 through 99 {
-            .box1, .box2, .box3 {
-            grid-row: #{$i * 3 + 1} / span 3;
-            }
-            }
 
 
 
