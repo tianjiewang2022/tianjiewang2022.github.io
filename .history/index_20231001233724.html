@@ -69,33 +69,32 @@
             Sally Wang
         </header>
 
-        <div class="container" id="box-container">
+        <div class="container" id="box-container"></div>
 
-            <script>
-                // Function to create a box element with the specified color
-                function createBox(color) {
-                    const box = document.createElement("span");
-                    box.classList.add("box", color);
-                    return box;
-                }
+        <script>
+            // Function to create a box element with the specified color
+            function createBox(color) {
+                const box = document.createElement("span");
+                box.classList.add("box", color);
+                return box;
+            }
 
-                // Get the container element
-                const container = document.getElementById("box-container");
+            // Get the container element
+            const container = document.getElementById("box-container");
 
-                // Create 100 rows of boxes
-                for (let i = 0; i < 100; i++) {
-                    const row = document.createElement("div");
-                    row.classList.add("container");
+            // Create 100 rows of boxes
+            for (let i = 0; i < 100; i++) {
+                const row = document.createElement("div");
+                row.classList.add("container");
 
-                    // Add three boxes to each row with different colors
-                    row.appendChild(createBox("blue"));
-                    row.appendChild(createBox("green"));
-                    row.appendChild(createBox("purple"));
-                    // Append the row to the main container
-                    container.appendChild(row);
-                }
-            </script>
-        </div>
+                // Add three boxes to each row with different colors
+                row.appendChild(createBox("blue"));
+                row.appendChild(createBox("green"));
+                row.appendChild(createBox("purple"));
+                // Append the row to the main container
+                container.appendChild(row);
+            }
+        </script>
     </body>
 
 </html>
