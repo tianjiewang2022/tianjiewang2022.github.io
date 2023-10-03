@@ -32,6 +32,7 @@
 
             .left_bar {
                 background-color: rgb(252, 196, 223);
+                color: rgb(0, 0, 0);
                 grid-row: 2 / span 4;
                 grid-column: 1 / span 1;
                 height: calc(4 * (100vh / 6));
@@ -40,7 +41,7 @@
                 /* Set the width of the left bar */
                 /* Position the left bar at the left side */
                 border: 4px solid #fff;
-
+                font-size: 20px;
             }
 
             .left-side-ul {
@@ -127,19 +128,17 @@
         </header>
 
         <!-- Your content goes here -->
-        <span class="left_bar"></span>
-
-        <div class="main_area">
-            <div class="box"></div> <!-- Centered box -->
-        </div>
-        <span class="right_bar"></span>
-        <div class="left-side-ul">
+        <div class="left_bar">
             <ul>
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
         </div>
+        <div class="main_area">
+            <div class="box"></div> <!-- Centered box -->
+        </div>
+        <span class="right_bar"></span>
 
         <footer></footer>
     </body>
