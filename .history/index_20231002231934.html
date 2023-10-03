@@ -33,10 +33,12 @@
                 background-color: rgb(30, 232, 232);
                 grid-row: 2 / span 4;
                 grid-column: 1 / span 1;
+                position: fixed;
                 height: calc(4 * (100vh / 6));
                 /* Set the height of the left bar */
                 width: calc(1 * (100vw / 6));
                 /* Set the width of the left bar */
+                left: 0;
                 /* Position the left bar at the left side */
             }
 
@@ -57,11 +59,13 @@
             .right_bar {
                 background-color: rgb(168, 27, 224);
                 grid-row: 2 / span 4;
-                grid-column: 6 / span 1;
+                grid-column: 5 / span 1;
+                position: fixed;
                 height: calc(4 * (100vh / 6));
                 /* Set the height of the left bar */
                 width: calc(1 * (100vw / 6));
                 /* Set the width of the left bar */
+                right: 0;
                 /* Position the left bar at the left side */
             }
 
@@ -84,7 +88,6 @@
         <header>
             Sally's Website
         </header>
-
         <!-- Your content goes here -->
         <span class="left_bar"></span>
         <span class="main_area"></span>
