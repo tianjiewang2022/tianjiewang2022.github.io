@@ -25,6 +25,24 @@
                 font-size: 40px;
             }
 
+            .flex-container {
+                display: flex;
+
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+
+            .flex-box {
+                height: calc(16.67%*4 - 20px);
+                background-color: rgb(252, 196, 223);
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .left_bar {
                 background-color: rgb(252, 196, 223);
                 grid-row: 2 / span 4;
@@ -61,11 +79,11 @@
         <header>
             Sally's Website
         </header>
-        <div>
+        <div class="flex-container">
             <!-- Your content goes here -->
-            <span class="left_bar"></span>
-            <span class="main_area"></span>
-            <span class="right_bar"></span>
+            <span class="flex-box left_bar"></span>
+            <span class="flex-box main_area"></span>
+            <span class="flex-box right_bar"></span>
         </div>
         <footer></footer>
     </body>
