@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            /* CSS for the form container */
+            .form-container {
+                width: 200px;
+                border: 2px solid #2c3e50;
+                padding: 40px 60px 30px;
+                display: inline-block;
+            }
+
+            /* CSS for labels */
+            label {
+                color: #34495e;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            /* CSS for input fields */
+            input {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #2c3e50;
+                border-radius: 4px;
+                color: #2c3e50;
+            }
+
+            /* CSS for placeholder text color */
+            input::placeholder {
+                color: #95a5a6;
+            }
+
+            /* CSS for the Submit button */
+            button {
+                width: 100%;
+                background: linear-gradient(to bottom, #27ae60, #2c3e50);
+                color: white;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            /* CSS for button hover effect */
+            button:hover {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="form-container">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+
+                <label for="message">Password</label>
+                <input type="text" id="message" name="message" placeholder="Your Password">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>
