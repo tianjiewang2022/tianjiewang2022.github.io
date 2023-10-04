@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Name Card</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .name-card {
+                width: 400px;
+                background-color: yellow;
+                border: 5px solid black;
+                text-align: left;
+                padding: 20px;
+                transition: border-width 0.3s ease;
+                cursor: pointer;
+            }
+
+            .name-card:hover {
+                border-width: 10px;
+            }
+
+            .first-name {
+                font-size: 100px;
+                font-weight: bold;
+                color: red;
+            }
+
+            .rest-of-first-name {
+                font-size: 50px;
+                color: orange;
+            }
+
+            .middle-last-name {
+                font-size: 30px;
+                font-weight: bold;
+                text-align: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="name-card">
+            <div class="name">
+                <span class="first-name">T</span>
+                <span class="rest-of-first-name">ianjie</span>
+            </div>
+            <div class="middle-last-name">Wang</div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Tianjie_Wang_ma/name_card.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1696386912306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1696386912306,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Name Card</title>\n        <style>\n            body {\n                display: flex;\n                justify-content: center;\n                align-items: center;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .name-card {\n                width: 400px;\n                background-color: yellow;\n                border: 5px solid black;\n                text-align: left;\n                padding: 20px;\n                transition: border-width 0.3s ease;\n                cursor: pointer;\n            }\n\n            .name-card:hover {\n                border-width: 10px;\n            }\n\n            .first-name {\n                font-size: 100px;\n                font-weight: bold;\n                color: red;\n            }\n\n            .rest-of-first-name {\n                font-size: 50px;\n                color: orange;\n            }\n\n            .middle-last-name {\n                font-size: 30px;\n                font-weight: bold;\n                text-align: right;\n            }\n        </style>\n    </head>\n\n    <body>\n        <div class=\"name-card\">\n            <div class=\"name\">\n                <span class=\"first-name\">T</span>\n                <span class=\"rest-of-first-name\">ianjie</span>\n            </div>\n            <div class=\"middle-last-name\">Wang</div>\n        </div>\n    </body>\n\n</html>"
+        }
+    ]
+}
