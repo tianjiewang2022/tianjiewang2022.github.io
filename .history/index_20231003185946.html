@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sally's Webpage</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-columns: repeat(3, 1fr);
+                height: 100vh;
+                background-color: aqua;
+            }
+
+            header,
+            .left_bar,
+            .main_area,
+            .right_bar,
+            footer {
+                background-color: green;
+                border: 3px solid black;
+                margin: 10px;
+            }
+
+            header,
+            .left_bar,
+            .right_bar,
+            footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            header,
+            footer {
+                grid-column: span 2;
+                height: calc(100vh / 3 - 20px);
+            }
+
+            .left_bar,
+            .right_bar {
+                height: calc(2 * (100vh / 3) - 20px);
+                width: calc((100vw / 3) - 20px);
+            }
+
+            .main_area {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: calc(100vh / 3 - 20px);
+                width: calc((100vw / 3) - 20px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header></header>
+        <div class="left_bar"></div>
+        <div class="main_area"></div>
+        <span class="right_bar"></span>
+        <footer></footer>
+    </body>
+
+</html>
