@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Tianjie_Wang_ma3.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1696382904490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1696382904490,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    /* CSS for the form container */\n    .form-container {\n      width: 200px;\n      border: 2px solid #2c3e50;\n      padding: 40px 60px 30px;\n      display: inline-block;\n    }\n\n    /* CSS for labels */\n    label {\n      color: #34495e;\n      display: block;\n      margin-bottom: 10px;\n    }\n\n    /* CSS for input fields */\n    input {\n      width: 100%;\n      padding: 5px;\n      margin-bottom: 10px;\n      border: 1px solid #2c3e50;\n      border-radius: 4px;\n      color: #2c3e50;\n      placeholder: #95a5a6;\n    }\n\n    /* CSS for the Submit button */\n    button {\n      width: 100%;\n      background: linear-gradient(to bottom, #27ae60, #2c3e50);\n      color: white;\n      border: none;\n      padding: 10px;\n      cursor: pointer;\n    }\n\n    /* CSS for button hover effect */\n    button:hover {\n      cursor: pointer;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"form-container\">\n    <form>\n      <label for=\"name\">Name</label>\n      <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Enter your name\">\n\n      <label for=\"email\">Email</label>\n      <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter your email\">\n\n      <label for=\"message\">Message</label>\n      <input type=\"text\" id=\"message\" name=\"message\" placeholder=\"Enter your message\">\n\n      <button type=\"submit\">Submit</button>\n    </form>\n  </div>\n</body>\n</html>\n"
+        }
+    ]
+}
